@@ -19,7 +19,7 @@ public class Main extends ListenerAdapter {
             public void run() {
                 Wetter w = null;
                 try {
-                    w = new Wetter("Wasbek");
+                    w = new Wetter("INSERT LOCATION STRING HERE");
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
