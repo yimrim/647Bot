@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 public class Main extends ListenerAdapter {
 
     public static void main(String[] args) throws LoginException, InterruptedException, IOException {
-        JDA jda = JDABuilder.createDefault("NTA4NjUzNzM2ODMxNDgzOTE1.XnZERg.QjBK62v49ZH1sXNWNb7SeeOTK9c").build();
+        JDA jda = JDABuilder.createDefault("INSERT BOT KEY HERE").build();
         jda.awaitReady();
 
 
